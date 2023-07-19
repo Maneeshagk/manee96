@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8"> <!--Unicode Transformation Format - 8-bit. It is a character encoding standard -->
+  	<title>Login Form</title> <!--title of the web page-->
+  	<link rel="stylesheet" href="style3.css"> <!--css file is used style login page-->
+</head>
+<body> <!--content of web page-->
+
+<div class="container"> <!--This class name suggests that the div is intended to act as a container for content-->
+
+<h1>LOG IN </h1><!-- heading "LOG IN" at the top of the form-->
+
+
+	<form action="index5.html" method="post"> <!--the user submits the form, the data will be sent to "index5.html" using the POST method-->
+		<div class="tbox">  <!--This creates a container for form input fields-->
+			<input type="text" placeholder="@username" value=""> <!--This is an input field of type "text" with a placeholder of "@username". Users can enter their username here-->
+		</div>
+
+		<div class="tbox">
+			<input class="btn" type="text" placeholder="password" value=""> <!--This is an input field of type "text" with a placeholder of "password"--> 
+		</div>
+		
+		<input type="submit" name="" value="LOG IN"> <!--This is a submit button that users can click to submit the form and attempt to log in.-->
+	</form>
+	<a class="b1" href="#">FORGOT PASSWORD ?</a> <!--This is a link ("anchor" element) with the class "b1". The "#" symbol in the "href" attribute makes it a placeholder link that does not navigate to a specific page.-->
+	<a class="b2" href="#">CREATE NEW ACCOUNT</a> <!--This is another link ("anchor" element) with the class "b2" for creating a new account. Like the previous link, it also has a "#" symbol in the "href" attribute, making it a placeholder link.-->
+	<script type="module" src="main.js"></script>
+
+	</body>
+</html>
